@@ -5,4 +5,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{}],"zlPH":[function(require,module,exports) {
 "use strict";var e=r(require("./models/Calculator")),t=r(require("./models/Printer"));function r(e){return e&&e.__esModule?e:{default:e}}var n=document.getElementById("js-rest-calculator");function u(e){e.preventDefault();var t=n.querySelector("#sum"),r=n.querySelector("#price");c(a(t.value,r.value))}function a(t,r){return(new e.default).calculateRest(t,r)}function c(e){var r=document.getElementById("js-result");new t.default(r,l(e)).print()}function l(e){if(e%1==0)return"Your rest is ".concat(e," dollars");var t=o(e),r=parseInt(e);return"Your rest is ".concat(r," dollars and ").concat(t," cents")}function o(e){return e.toPrecision(3).toString().split(".")[1]}n.addEventListener("submit",u);
 },{"./models/Calculator":"qr7h","./models/Printer":"gQ2u"}]},{},["zlPH"], null)
-//# sourceMappingURL=/restCalculator.4f9aba57.js.map
+//# sourceMappingURL=/dist/restCalculator.4f9aba57.js.map
