@@ -24,7 +24,7 @@ function printRest(rest) {
 
 function genereMessageWithRest(rest) {
   const isInt = rest % 1 === 0;
-  const dollarsNaming = Math.round(rest) === 1 ? "dollar" : "dollars";
+  const dollarsNaming = parseInt(rest) === 1 ? "dollar" : "dollars";
   if (isInt) {
     return `Your rest is ${rest} dollars`;
   } else {
