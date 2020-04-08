@@ -35,5 +35,5 @@ function genereMessageWithRest(rest) {
 }
 
 function getDecimalNumbers(number) {
-  return number.toPrecision(3).toString().split(".")[1];
+  return number.toFixed(2).toString().split(".")[1];
 }

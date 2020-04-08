@@ -222,7 +222,7 @@ function genereMessageWithRest(rest) {
 }
 
 function getDecimalNumbers(number) {
-  return number.toPrecision(3).toString().split(".")[1];
+  return number.toFixed(2).toString().split(".")[1];
 }
 },{"./models/Calculator":"js/models/Calculator.js","./models/Printer":"js/models/Printer.js"}],"C:/Users/dgolo/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
@@ -252,7 +252,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57209" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60137" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
