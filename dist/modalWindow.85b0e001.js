@@ -5,4 +5,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{"../models/Modal":"HW7p"}],"zaH9":[function(require,module,exports) {
 "use strict";var e=t(require("./models/Modal")),n=t(require("./components/TextModal"));function t(e){return e&&e.__esModule?e:{default:e}}var o=document.getElementById("js-open-btn");function i(){new n.default({container:"js-modal-container",text:"Hello, I'm a modal window!",beforeGenere:function(){return r(o)},afterClose:function(){return d(o)},withAnimation:!0}).genere()}function r(e){e.classList.add("hidden")}function d(e){e.classList.remove("hidden")}o.addEventListener("click",i);
 },{"./models/Modal":"HW7p","./components/TextModal":"jPdP"}]},{},["zaH9"], null)
-//# sourceMappingURL=/dist/modalWindow.85b0e001.js.map
+//# sourceMappingURL=/indeema-test/dist/modalWindow.85b0e001.js.map
