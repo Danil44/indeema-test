@@ -1,0 +1,31 @@
+table {
+  min-width: 80%;
+  margin-bottom: 50px;
+  border: 1px solid #e2e2e2;
+  padding: 10px;
+  border-radius: 5px;
+  border-collapse: collapse;
+}
+table thead tr {
+  border-bottom: 1px solid #e2e2e2;
+  padding: 10px 0;
+}
+
+table th,
+table td {
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 400;
+  padding: 15px;
+}
+table tr {
+  width: 100%;
+  margin-bottom: 10px;
+}
+table td {
+  font-size: 14px;
+  text-align: center;
+}
+table button {
+  margin-right: 10px;
+}

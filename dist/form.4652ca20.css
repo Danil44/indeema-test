@@ -1,0 +1,2 @@
+input.field-error{border:2px solid #b22222}form{display:inline-flex;flex-direction:column;width:300px}form label{font-size:16px;font-weight:400;margin-bottom:5px}form input{display:flex;padding:8px 5px;border:1px solid #e2e2e2;border-radius:5px}form input:not(:last-of-type){margin-bottom:8px}form button[type=submit]{margin-top:20px;box-shadow:0 0 5px #db7093}
+/*# sourceMappingURL=/form.4652ca20.css.map */

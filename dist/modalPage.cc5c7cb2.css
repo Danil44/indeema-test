@@ -1,0 +1,12 @@
+.modal #js-open-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.modal #js-open-btn.hidden {
+  display: none;
+}
+
+
+/*# sourceMappingURL=/modalPage.cc5c7cb2.css.map */

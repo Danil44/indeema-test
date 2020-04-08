@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/form.css" />
+    <link rel="stylesheet" href="css/index.css" />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="./modalWindow.html">Modal window</a></li>
+        <li><a href="./table.html">Table</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section class="calculator">
+        <form class="row" id="js-rest-calculator">
+          <label for="sum">Sum</label>
+          <input id="sum" type="number" />
+          <label for="price">Price</label>
+          <input id="price" type="number" />
+          <button type="submit">
+            Return the rest
+          </button>
+        </form>
+        <p class="flow-text" id="js-result"></p>
+      </section>
+    </main>
+
+    <script src="./js/restCalculator.js"></script>
+  </body>
+</html>
