@@ -211,13 +211,14 @@ function printRest(rest) {
 
 function genereMessageWithRest(rest) {
   var isInt = rest % 1 === 0;
+  var dollarsNaming = rest === 1 ? "dollar" : "dollars";
 
   if (isInt) {
     return "Your rest is ".concat(rest, " dollars");
   } else {
     var decimalNumbers = getDecimalNumbers(rest);
     var integer = parseInt(rest);
-    return "Your rest is ".concat(integer, " dollars and ").concat(decimalNumbers, " cents");
+    return "Your rest is ".concat(integer, " ").concat(dollarsNaming, " and ").concat(decimalNumbers, " cents");
   }
 }
 

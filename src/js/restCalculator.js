@@ -24,13 +24,13 @@ function printRest(rest) {
 
 function genereMessageWithRest(rest) {
   const isInt = rest % 1 === 0;
-
+  const dollarsNaming = Math.round(rest) === 1 ? "dollar" : "dollars";
   if (isInt) {
     return `Your rest is ${rest} dollars`;
   } else {
     const decimalNumbers = getDecimalNumbers(rest);
     const integer = parseInt(rest);
-    return `Your rest is ${integer} dollars and ${decimalNumbers} cents`;
+    return `Your rest is ${integer} ${dollarsNaming} and ${decimalNumbers} cents`;
   }
 }
 
